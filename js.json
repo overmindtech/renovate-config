@@ -7,7 +7,7 @@
             "matchDatasources": [
                 "npm"
             ],
-            "matchSourceUrlPrefixes": [
+            "matchPackagePrefixes": [
                 "@overmindtech/"
             ]
         },
