@@ -27,6 +27,12 @@
                 "https://github.com/uptrace/opentelemetry-go-extra/",
                 "https://go.opentelemetry.io/"
             ]
+        },
+        {
+            "matchSourceUrlPrefixes": [
+                "https://k8s.io/client-go/"
+            ],
+            "allowedVersions": "/^v.*/"
         }
     ]
 }
