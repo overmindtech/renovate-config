@@ -2,6 +2,6 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "prHourlyLimit": 10,
     "schedule": [
-        "weekdays"
+        "before 10am on friday"
     ]
 }
