@@ -36,7 +36,7 @@
             ]
         },
         {
-            "groupName": "TRPC",
+            "groupName": "tRPC",
             "groupSlug": "trpc-npm",
             "matchDatasources": [
                 "npm"
