@@ -1,0 +1,32 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "packageRules": [
+        {
+            "groupName": "Overmind Dependencies",
+            "matchSourceUrlPrefixes": [
+                "https://github.com/overmindtech/"
+            ]
+        },
+        {
+            "groupName": "NATS modules",
+            "matchSourceUrlPrefixes": [
+                "https://github.com/nats-io/"
+            ]
+        },
+        {
+            "groupName": "Ginkgo test utils",
+            "matchSourceUrlPrefixes": [
+                "https://github.com/onsi/"
+            ]
+        },
+        {
+            "groupName": "Observability modules",
+            "matchSourceUrlPrefixes": [
+                "https://github.com/getsentry/",
+                "https://github.com/go-logr/",
+                "https://github.com/uptrace/opentelemetry-go-extra/",
+                "https://go.opentelemetry.io/"
+            ]
+        }
+    ]
+}
