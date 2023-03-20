@@ -1,4 +1,50 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "packageRules": []
+    "packageRules": [
+        {
+            "groupName": "Overmind Dependencies",
+            "groupSlug": "overmindtech-npm",
+            "matchDatasources": [
+                "npm"
+            ],
+            "matchSourceUrlPrefixes": [
+                "@overmindtech/"
+            ]
+        },
+        {
+            "groupName": "Linters and Formatters",
+            "groupSlug": "prettier-npm",
+            "matchDatasources": [
+                "npm"
+            ],
+            "matchPackagePrefixes": [
+                "prettier",
+                "eslint",
+                "@typescript-eslint/"
+            ]
+        },
+        {
+            "groupName": "Test Tooling",
+            "groupSlug": "jest-npm",
+            "matchDatasources": [
+                "npm"
+            ],
+            "matchPackagePrefixes": [
+                "jest",
+                "@testing-library/",
+                "@playwright/"
+            ]
+        },
+        {
+            "groupName": "TRPC",
+            "groupSlug": "trpc-npm",
+            "matchDatasources": [
+                "npm"
+            ],
+            "matchPackagePrefixes": [
+                "@trpc/",
+                "msw-trpc"
+            ]
+        }
+    ]
 }
