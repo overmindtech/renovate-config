@@ -3,24 +3,40 @@
     "packageRules": [
         {
             "groupName": "Overmind Dependencies",
+            "groupSlug": "overmindtech-go",
+            "matchDatasources": [
+                "go"
+            ],
             "matchSourceUrlPrefixes": [
                 "https://github.com/overmindtech/"
             ]
         },
         {
             "groupName": "NATS modules",
+            "groupSlug": "nats-go",
+            "matchDatasources": [
+                "go"
+            ],
             "matchSourceUrlPrefixes": [
                 "https://github.com/nats-io/"
             ]
         },
         {
             "groupName": "Ginkgo test utils",
+            "groupSlug": "gink-go",
+            "matchDatasources": [
+                "go"
+            ],
             "matchSourceUrlPrefixes": [
                 "https://github.com/onsi/"
             ]
         },
         {
             "groupName": "Observability modules",
+            "groupSlug": "opentelemetry-go",
+            "matchDatasources": [
+                "go"
+            ],
             "matchSourceUrlPrefixes": [
                 "https://github.com/getsentry/",
                 "https://github.com/go-logr/",
@@ -29,8 +45,11 @@
             ]
         },
         {
-            "matchSourceUrlPrefixes": [
-                "https://k8s.io/client-go/"
+            "matchDatasources": [
+                "go"
+            ],
+            "matchPackagePrefixes": [
+                "k8s.io/client-go"
             ],
             "allowedVersions": "< 1"
         }
