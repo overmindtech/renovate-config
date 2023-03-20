@@ -32,7 +32,7 @@
             "matchSourceUrlPrefixes": [
                 "https://k8s.io/client-go/"
             ],
-            "allowedVersions": "/^v.*/"
+            "allowedVersions": "< 1"
         }
     ]
 }
