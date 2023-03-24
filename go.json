@@ -22,6 +22,16 @@
             ]
         },
         {
+            "groupName": "AWS SDK",
+            "groupSlug": "aws-sdk-go",
+            "matchDatasources": [
+                "go"
+            ],
+            "matchPackagePrefixes": [
+                "github.com/aws/aws-sdk-go-v2"
+            ]
+        },
+        {
             "groupName": "Ginkgo test utils",
             "groupSlug": "gink-go",
             "matchDatasources": [
