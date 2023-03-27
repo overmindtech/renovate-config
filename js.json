@@ -45,6 +45,17 @@
                 "@trpc/",
                 "msw-trpc"
             ]
+        },
+        {
+            "groupName": "Observability Tooling",
+            "groupSlug": "observability-npm",
+            "matchDatasources": [
+                "npm"
+            ],
+            "matchPackagePrefixes": [
+                "@opentelemetry/",
+                "@sentry/"
+            ]
         }
     ]
 }
