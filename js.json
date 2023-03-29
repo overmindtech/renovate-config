@@ -32,7 +32,8 @@
             "matchPackagePrefixes": [
                 "jest",
                 "@testing-library/",
-                "@playwright/"
+                "@playwright/",
+                "next-router-mock"
             ]
         },
         {
@@ -44,6 +45,17 @@
             "matchPackagePrefixes": [
                 "@trpc/",
                 "msw-trpc"
+            ]
+        },
+        {
+            "groupName": "Observability Tooling",
+            "groupSlug": "observability-npm",
+            "matchDatasources": [
+                "npm"
+            ],
+            "matchPackagePrefixes": [
+                "@opentelemetry/",
+                "@sentry/"
             ]
         },
         {
