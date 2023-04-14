@@ -33,7 +33,8 @@
                 "jest",
                 "@testing-library/",
                 "@playwright/",
-                "next-router-mock"
+                "next-router-mock",
+                "lost-pixel"
             ]
         },
         {
