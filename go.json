@@ -22,6 +22,16 @@
             ]
         },
         {
+            "groupName": "K8s Modules",
+            "groupSlug": "k8s-go",
+            "matchDatasources": [
+                "go"
+            ],
+            "matchSourceUrlPrefixes": [
+                "k8s.io"
+            ]
+        },
+        {
             "groupName": "AWS SDK",
             "groupSlug": "aws-sdk-go",
             "matchDatasources": [
