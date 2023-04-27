@@ -34,7 +34,8 @@
                 "@testing-library/",
                 "@playwright/",
                 "next-router-mock",
-                "lost-pixel"
+                "lost-pixel",
+                "@ladle/react"
             ]
         },
         {
