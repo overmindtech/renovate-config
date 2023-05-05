@@ -48,6 +48,7 @@
                 "go"
             ],
             "matchPackagePrefixes": [
+                "github.com/bufbuild/connect-opentelemetry-go",
                 "github.com/getsentry/",
                 "github.com/go-logr/",
                 "github.com/uptrace/opentelemetry-go-extra/",
