@@ -52,7 +52,8 @@
                 "github.com/getsentry/",
                 "github.com/go-logr/",
                 "github.com/uptrace/opentelemetry-go-extra/",
-                "go.opentelemetry.io/"
+                "go.opentelemetry.io/",
+                "gorm.io/plugin/opentelemetry"
             ]
         },
         {
