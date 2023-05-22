@@ -1,70 +1,48 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "packageRules": [
-        {
-            "groupName": "Overmind Dependencies",
-            "groupSlug": "overmindtech-go",
-            "matchDatasources": [
-                "go"
-            ],
-            "matchSourceUrlPrefixes": [
-                "https://github.com/overmindtech/"
-            ]
-        },
-        {
-            "groupName": "NATS modules",
-            "groupSlug": "nats-go",
-            "matchDatasources": [
-                "go"
-            ],
-            "matchSourceUrlPrefixes": [
-                "https://github.com/nats-io/"
-            ]
-        },
-        {
-            "groupName": "AWS SDK",
-            "groupSlug": "aws-sdk-go",
-            "matchDatasources": [
-                "go"
-            ],
-            "matchPackagePrefixes": [
-                "github.com/aws/aws-sdk-go-v2"
-            ]
-        },
-        {
-            "groupName": "Ginkgo test utils",
-            "groupSlug": "gink-go",
-            "matchDatasources": [
-                "go"
-            ],
-            "matchSourceUrlPrefixes": [
-                "https://github.com/onsi/"
-            ],
-            "automerge": true
-        },
-        {
-            "groupName": "Observability modules",
-            "groupSlug": "opentelemetry-go",
-            "matchDatasources": [
-                "go"
-            ],
-            "matchPackagePrefixes": [
-                "github.com/bufbuild/connect-opentelemetry-go",
-                "github.com/getsentry/",
-                "github.com/go-logr/",
-                "github.com/uptrace/opentelemetry-go-extra/",
-                "go.opentelemetry.io/",
-                "gorm.io/plugin/opentelemetry"
-            ]
-        },
-        {
-            "matchDatasources": [
-                "go"
-            ],
-            "matchPackagePrefixes": [
-                "k8s.io/client-go"
-            ],
-            "allowedVersions": "< v1.0.0"
-        }
-    ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "Overmind Dependencies",
+      "groupSlug": "overmindtech-go",
+      "matchDatasources": ["go"],
+      "matchSourceUrlPrefixes": ["https://github.com/overmindtech/"]
+    },
+    {
+      "groupName": "NATS modules",
+      "groupSlug": "nats-go",
+      "matchDatasources": ["go"],
+      "matchSourceUrlPrefixes": ["https://github.com/nats-io/"]
+    },
+    {
+      "groupName": "AWS SDK",
+      "groupSlug": "aws-sdk-go",
+      "matchDatasources": ["go"],
+      "matchPackagePrefixes": ["github.com/aws/aws-sdk-go-v2"]
+    },
+    {
+      "groupName": "Ginkgo test utils",
+      "groupSlug": "gink-go",
+      "matchDatasources": ["go"],
+      "matchSourceUrlPrefixes": ["https://github.com/onsi/"],
+      "automerge": true
+    },
+    {
+      "groupName": "Observability modules",
+      "groupSlug": "opentelemetry-go",
+      "matchDatasources": ["go"],
+      "matchPackagePrefixes": [
+        "github.com/bufbuild/connect-opentelemetry-go",
+        "github.com/getsentry/",
+        "github.com/go-logr/",
+        "github.com/uptrace/opentelemetry-go-extra/",
+        "go.opentelemetry.io/",
+        "gorm.io/plugin/opentelemetry"
+      ]
+    },
+    {
+      "matchDatasources": ["go"],
+      "matchPackagePrefixes": ["k8s.io/client-go"],
+      "allowedVersions": "< v1.0.0"
+    }
+  ]
 }

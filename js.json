@@ -1,77 +1,50 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "packageRules": [
-        {
-            "groupName": "Overmind Dependencies",
-            "groupSlug": "overmindtech-npm",
-            "matchDatasources": [
-                "npm"
-            ],
-            "matchPackagePrefixes": [
-                "@overmindtech/"
-            ]
-        },
-        {
-            "groupName": "Linters and Formatters",
-            "groupSlug": "prettier-npm",
-            "matchDatasources": [
-                "npm"
-            ],
-            "matchPackagePrefixes": [
-                "prettier",
-                "eslint",
-                "@typescript-eslint/"
-            ],
-            "automerge": true
-        },
-        {
-            "groupName": "Test Tooling",
-            "groupSlug": "jest-npm",
-            "matchDatasources": [
-                "npm"
-            ],
-            "matchPackagePrefixes": [
-                "jest",
-                "@testing-library/",
-                "@playwright/",
-                "next-router-mock",
-                "lost-pixel",
-                "@ladle/react"
-            ],
-            "automerge": true
-        },
-        {
-            "groupName": "tRPC",
-            "groupSlug": "trpc-npm",
-            "matchDatasources": [
-                "npm"
-            ],
-            "matchPackagePrefixes": [
-                "@trpc/",
-                "msw-trpc"
-            ]
-        },
-        {
-            "groupName": "Observability Tooling",
-            "groupSlug": "observability-npm",
-            "matchDatasources": [
-                "npm"
-            ],
-            "matchPackagePrefixes": [
-                "@opentelemetry/",
-                "@sentry/"
-            ]
-        },
-        {
-            "groupName": "Observability Tooling",
-            "groupSlug": "observability-npm",
-            "matchDatasources": [
-                "npm"
-            ],
-            "matchPackagePrefixes": [
-                "@opentelemetry/",
-                "@sentry/"
-            ]
-        }
-    ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "Overmind Dependencies",
+      "groupSlug": "overmindtech-npm",
+      "matchDatasources": ["npm"],
+      "matchPackagePrefixes": ["@overmindtech/"]
+    },
+    {
+      "groupName": "Linters and Formatters",
+      "groupSlug": "prettier-npm",
+      "matchDatasources": ["npm"],
+      "matchPackagePrefixes": ["prettier", "eslint", "@typescript-eslint/"],
+      "automerge": true
+    },
+    {
+      "groupName": "Test Tooling",
+      "groupSlug": "jest-npm",
+      "matchDatasources": ["npm"],
+      "matchPackagePrefixes": [
+        "jest",
+        "@testing-library/",
+        "@playwright/",
+        "next-router-mock",
+        "lost-pixel",
+        "@ladle/react"
+      ],
+      "automerge": true
+    },
+    {
+      "groupName": "tRPC",
+      "groupSlug": "trpc-npm",
+      "matchDatasources": ["npm"],
+      "matchPackagePrefixes": ["@trpc/", "msw-trpc"]
+    },
+    {
+      "groupName": "Observability Tooling",
+      "groupSlug": "observability-npm",
+      "matchDatasources": ["npm"],
+      "matchPackagePrefixes": ["@opentelemetry/", "@sentry/"]
+    },
+    {
+      "groupName": "Observability Tooling",
+      "groupSlug": "observability-npm",
+      "matchDatasources": ["npm"],
+      "matchPackagePrefixes": ["@opentelemetry/", "@sentry/"]
+    }
+  ]
 }
