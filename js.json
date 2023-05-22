@@ -21,7 +21,8 @@
                 "prettier",
                 "eslint",
                 "@typescript-eslint/"
-            ]
+            ],
+            "automerge": true
         },
         {
             "groupName": "Test Tooling",
@@ -36,7 +37,8 @@
                 "next-router-mock",
                 "lost-pixel",
                 "@ladle/react"
-            ]
+            ],
+            "automerge": true
         },
         {
             "groupName": "tRPC",
