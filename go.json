@@ -40,6 +40,13 @@
       ]
     },
     {
+      "groupSlug": "kubernetes-go",
+      "matchDatasources": ["go"],
+      "matchPackagePrefixes": [
+        "sigs.k8s.io/controller-runtime"
+      ]
+    },
+    {
       "matchDatasources": ["go"],
       "matchPackagePrefixes": ["k8s.io/client-go"],
       "allowedVersions": "< v1.0.0"
