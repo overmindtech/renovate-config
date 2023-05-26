@@ -7,17 +7,6 @@
       "matchDatasources": ["docker"],
       "matchPackageNames": ["postgres"],
       "allowedVersions": "/^14\\.6-alpine$/"
-    },
-    {
-      "groupName": "Alpine-based Docker images",
-      "groupSlug": "alpine-docker",
-      "matchDatasources": ["docker"],
-      "matchPackageNames": ["alpine", "golang"]
-    },
-    {
-      "matchDatasources": ["docker"],
-      "matchPackageNames": ["golang"],
-      "extractVersion": "^(?<version>\\d+\\.\\d+-alpine\\d.\\d)"
     }
   ]
 }
