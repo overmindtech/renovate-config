@@ -40,7 +40,7 @@
       ]
     },
     {
-      "groupSlug": "kubernetes-go",
+      "groupName": "kubernetes packages",
       "matchDatasources": ["go"],
       "matchPackagePrefixes": [
         "sigs.k8s.io/controller-runtime"
