@@ -16,7 +16,9 @@
     {
       "matchUpdateTypes": ["minor", "patch"],
       "matchCurrentVersion": "!/^0/",
-      "automerge": true
+      "automerge": true,
+      "platformAutomerge": true,
+      "platformCommit": true
     }
   ]
 }
