@@ -4,20 +4,32 @@
     {
       "groupName": "Overmind Dependencies",
       "groupSlug": "overmindtech-npm",
-      "matchDatasources": ["npm"],
-      "matchPackagePrefixes": ["@overmindtech/"]
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePrefixes": [
+        "@overmindtech/"
+      ]
     },
     {
       "groupName": "Linters and Formatters",
       "groupSlug": "prettier-npm",
-      "matchDatasources": ["npm"],
-      "matchPackagePrefixes": ["prettier", "eslint", "@typescript-eslint/"],
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePrefixes": [
+        "prettier",
+        "eslint",
+        "@typescript-eslint/"
+      ],
       "automerge": true
     },
     {
       "groupName": "Test Tooling",
       "groupSlug": "jest-npm",
-      "matchDatasources": ["npm"],
+      "matchDatasources": [
+        "npm"
+      ],
       "matchPackagePrefixes": [
         "jest",
         "@testing-library/",
@@ -29,16 +41,29 @@
       "automerge": true
     },
     {
-      "groupName": "tRPC",
+      "groupName": "RPC Libraries",
       "groupSlug": "trpc-npm",
-      "matchDatasources": ["npm"],
-      "matchPackagePrefixes": ["@trpc/", "msw-trpc"]
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePrefixes": [
+        "@bufbuild/",
+        "@grpc/grpc-js",
+        "@trpc/",
+        "msw-trpc",
+        "tanstack-query"
+      ]
     },
     {
       "groupName": "Observability Tooling",
       "groupSlug": "observability-npm",
-      "matchDatasources": ["npm"],
-      "matchPackagePrefixes": ["@opentelemetry/", "@sentry/"]
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePrefixes": [
+        "@opentelemetry/",
+        "@sentry/"
+      ]
     },
     {
       "groupName": "Radix UI",
@@ -48,16 +73,6 @@
       ],
       "matchPackagePrefixes": [
         "@radix-ui/"
-      ]
-    },
-    {
-      "groupName": "BufBuild",
-      "groupSlug": "bufbuild",
-      "matchDatasources": [
-        "npm"
-      ],
-      "matchPackagePrefixes": [
-        "@bufbuild/"
       ]
     },
     {
