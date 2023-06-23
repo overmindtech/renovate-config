@@ -41,10 +41,34 @@
       "matchPackagePrefixes": ["@opentelemetry/", "@sentry/"]
     },
     {
-      "groupName": "Observability Tooling",
-      "groupSlug": "observability-npm",
-      "matchDatasources": ["npm"],
-      "matchPackagePrefixes": ["@opentelemetry/", "@sentry/"]
+      "groupName": "Radix UI",
+      "groupSlug": "radix-ui",
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePrefixes": [
+        "@radix-ui/"
+      ]
+    },
+    {
+      "groupName": "BufBuild",
+      "groupSlug": "bufbuild",
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePrefixes": [
+        "@bufbuild/"
+      ]
+    },
+    {
+      "groupName": "TypeScript types",
+      "groupSlug": "ts-types",
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePrefixes": [
+        "@types/"
+      ]
     }
   ]
 }
