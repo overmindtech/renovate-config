@@ -41,16 +41,25 @@
       "automerge": true
     },
     {
-      "groupName": "RPC Libraries",
+      "groupName": "tRPC Libraries",
       "groupSlug": "trpc-npm",
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePrefixes": [
+        "@trpc/",
+        "msw-trpc"
+      ]
+    },
+    {
+      "groupName": "bufbuild Libraries",
+      "groupSlug": "bufbuild-npm",
       "matchDatasources": [
         "npm"
       ],
       "matchPackagePrefixes": [
         "@bufbuild/",
         "@grpc/grpc-js",
-        "@trpc/",
-        "msw-trpc",
         "tanstack-query"
       ]
     },
