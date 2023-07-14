@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
+    "config:recommended",
     "github>overmindtech/renovate-config:schedule",
     "github>overmindtech/renovate-config:go",
     "github>overmindtech/renovate-config:js",
