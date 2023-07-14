@@ -105,6 +105,17 @@
       ]
     },
     {
+      "groupName": "Tailwind CSS",
+      "groupSlug": "tailwind",
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePrefixes": [
+        "@tailwindcss/",
+        "tailwind"
+      ]
+    },
+    {
       "groupName": "TypeScript types",
       "groupSlug": "ts-types",
       "matchDatasources": [
