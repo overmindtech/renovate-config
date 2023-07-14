@@ -94,6 +94,17 @@
       ]
     },
     {
+      "groupName": "Vite",
+      "groupSlug": "vite",
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePrefixes": [
+        "@vitejs/",
+        "vite"
+      ]
+    },
+    {
       "groupName": "TypeScript types",
       "groupSlug": "ts-types",
       "matchDatasources": [
