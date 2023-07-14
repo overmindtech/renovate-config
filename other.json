@@ -2,6 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
+      "matchDatasources": [
+        "docker"
+      ],
+      "labels": [
+        "dependencies",
+        "docker"
+      ]
+    },
+    {
       "groupName": "AWS RDS Aurora PostgreSQL Serverless",
       "groupSlug": "rds-aurora-docker",
       "matchDatasources": [
