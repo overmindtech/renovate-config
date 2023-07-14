@@ -101,6 +101,7 @@
       ],
       "matchPackagePrefixes": [
         "@vitejs/",
+        "@vitest/",
         "vite"
       ]
     },
