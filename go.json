@@ -55,7 +55,7 @@
       "groupName": "Observability modules",
       "groupSlug": "opentelemetry-go",
       "automerge": false,
-      "addLabels": [
+      "labels": [
         "observability"
       ],
       "prBodyNotes": "## ⚠️ Warning\n\nThese modules are almost certainly going to break everything. They do every time they update. If you update even one repo's OTEL modules, go will then pull in new versions due to [MVS](https://research.swtch.com/vgo-mvs) which will cause your repo to break. All [otel pull requests](https://github.com/pulls?q=is%3Aopen+is%3Apr+user%3Aovermindtech+archived%3Afalse+label%3Aobservability+) need to be merged basically at the same time, and after all of the modules have been updated to be compatible with each other.",
