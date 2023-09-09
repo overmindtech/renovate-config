@@ -2,6 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
+    "github>overmindtech/renovate-config:base",
     "github>overmindtech/renovate-config:schedule",
     "github>overmindtech/renovate-config:go",
     "github>overmindtech/renovate-config:js",
@@ -13,17 +14,5 @@
   },
   "labels": [
     "dependencies"
-  ],
-  "packageRules": [
-    {
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "matchCurrentVersion": "!/^0/",
-      "automerge": true,
-      "platformAutomerge": true,
-      "platformCommit": true
-    }
   ]
 }
