@@ -121,11 +121,17 @@
     {
       "groupName": "TypeScript types",
       "groupSlug": "ts-types",
-      "matchDatasources": [
-        "npm"
-      ],
-      "matchPackagePrefixes": [
-        "@types/"
+      "matchDatasources": ["npm"],
+      "matchPackagePrefixes": ["@types/"]
+    },
+    {
+      "groupName": "Next",
+      "groupSlug": "next",
+      "matchDatasources": ["npm"],
+      "matchPackageNames": [
+        "eslint-config-next",
+        "next",
+        "@next/bundle-analyzer"
       ]
     }
   ]
