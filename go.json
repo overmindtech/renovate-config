@@ -41,6 +41,17 @@
       ]
     },
     {
+      "groupName": "River Queue",
+      "groupSlug": "riverqueue",
+      "prBodyNotes": "## ⚠️ Warning\n\nThese modules contain database migrations that need to be added manually to our atlas migrations. Check the contents of https://github.com/riverqueue/river/tree/master/rivermigrate/migration before merging this update.",
+      "matchDatasources": [
+        "go"
+      ],
+      "matchPackagePrefixes": [
+        "github.com/riverqueue"
+      ]
+    },
+    {
       "groupName": "Ginkgo test utils",
       "groupSlug": "gink-go",
       "matchDatasources": [
