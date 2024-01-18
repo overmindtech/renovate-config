@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "prHourlyLimit": 10,
+  "prHourlyLimit": 20,
+  "prConcurrentLimit": 0,
   "schedule": [
     "before 4pm on friday"
   ]
