@@ -18,6 +18,9 @@
       ],
       "matchSourceUrlPrefixes": [
         "https://github.com/overmindtech/"
+      ],
+      "schedule": [
+        "at any time"
       ]
     },
     {
