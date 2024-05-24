@@ -19,7 +19,7 @@
       "matchPackageNames": [
         "postgres"
       ],
-      "allowedVersions": "/^14\\.6-alpine$/"
+      "allowedVersions": "/^14\\.9-alpine$/"
     }
   ]
 }
