@@ -8,6 +8,9 @@
       "labels": [
         "dependencies",
         "golang"
+      ],
+      "postUpdateOptions": [
+        "gomodTidy"
       ]
     },
     {
