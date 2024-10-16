@@ -24,7 +24,10 @@
       ],
       "schedule": [
         "at any time"
-      ]
+      ],
+      "automerge": true,
+      "platformAutomerge": true,
+      "platformCommit": true
     },
     {
       "groupName": "NATS modules",
