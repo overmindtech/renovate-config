@@ -39,12 +39,11 @@
     },
     {
       "groupName": "Test Tooling",
-      "groupSlug": "jest-npm",
-      "matchDatasources": [
-        "npm"
-      ],
+      "groupSlug": "vitest-npm",
+      "matchDatasources": ["npm"],
       "matchPackagePrefixes": [
-        "jest",
+        "vitest",
+        "@vitest/**",
         "@testing-library/",
         "@playwright/",
         "next-router-mock",
