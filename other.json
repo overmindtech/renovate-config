@@ -13,6 +13,13 @@
       "allowedVersions": "/^14\\.9-alpine$/"
     },
     {
+      "groupName": "Docker Images",
+      "groupSlug": "docker",
+      "matchDatasources": [
+        "docker"
+      ]
+    },
+    {
       "groupName": "Terraform",
       "groupSlug": "terraform",
       "matchDatasources": [
