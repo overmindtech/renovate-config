@@ -20,6 +20,14 @@
       ]
     },
     {
+      "groupName": "Go",
+      "groupSlug": "go",
+      "matchDatasources": [
+        "go",
+        "golang-version"
+      ]
+    },
+    {
       "groupName": "Terraform",
       "groupSlug": "terraform",
       "matchDatasources": [
