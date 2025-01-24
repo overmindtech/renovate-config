@@ -32,7 +32,24 @@
       "matchDatasources": [
         "go",
         "golang-version"
-      ]
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchCurrentVersion": "!/^0/"
+    },
+    {
+      "groupName": "Javascript",
+      "groupSlug": "js",
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchCurrentVersion": "!/^0/"
     },
     {
       "groupName": "Terraform",
