@@ -13,6 +13,13 @@
       "allowedVersions": "/^14\\.9-alpine$/"
     },
     {
+      "groupName": "GitHub Actions",
+      "groupSlug": "github-actions",
+      "matchManagers": [
+        "github-actions"
+      ]
+    },
+    {
       "groupName": "Docker Images",
       "groupSlug": "docker",
       "matchDatasources": [
