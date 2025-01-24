@@ -20,6 +20,13 @@
         "postgres"
       ],
       "allowedVersions": "/^14\\.9-alpine$/"
+    },
+    {
+      "groupName": "Terraform",
+      "groupSlug": "terraform",
+      "matchDatasources": [
+        "terraform"
+      ]
     }
   ]
 }
