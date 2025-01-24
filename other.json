@@ -40,6 +40,18 @@
       "matchCurrentVersion": "!/^0/"
     },
     {
+      "groupName": "Helm Charts",
+      "groupSlug": "helm",
+      "matchDatasources": [
+        "helm"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchCurrentVersion": "!/^0/"
+    },
+    {
       "groupName": "Javascript",
       "groupSlug": "js",
       "matchDatasources": [
