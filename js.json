@@ -13,7 +13,13 @@
       ],
       "matchPackagePrefixes": [
         "@overmindtech/"
-      ]
+      ],
+      "schedule": [
+        "at any time"
+      ],
+      "automerge": true,
+      "platformAutomerge": true,
+      "platformCommit": true
     },
     {
       "groupName": "Linters and Formatters",
