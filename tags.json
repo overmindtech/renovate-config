@@ -1,0 +1,49 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "rebaseWhen": "conflicted",
+  "major": {
+    "dependencyDashboardApproval": true
+  },
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "docker"
+      ],
+      "labels": [
+        "dependencies",
+        "docker"
+      ]
+    },
+    {
+      "matchDatasources": [
+        "go"
+      ],
+      "labels": [
+        "dependencies",
+        "golang"
+      ],
+      "postUpdateOptions": [
+        "gomodTidy"
+      ]
+    },
+    {
+      "matchDatasources": [
+        "npm"
+      ],
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "matchDatasources": [
+        "terraform-module",
+        "terraform-provider"
+      ],
+      "labels": [
+        "dependencies",
+        "terraform"
+      ]
+    }
+  ]
+}

@@ -4,6 +4,7 @@
     "config:recommended",
     "github>overmindtech/renovate-config:base",
     "github>overmindtech/renovate-config:schedule",
+    "github>overmindtech/renovate-config:tags",
     "github>overmindtech/renovate-config:go",
     "github>overmindtech/renovate-config:js",
     "github>overmindtech/renovate-config:other"

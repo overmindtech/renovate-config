@@ -6,15 +6,6 @@
   },
   "packageRules": [
     {
-      "matchDatasources": [
-        "npm"
-      ],
-      "labels": [
-        "dependencies",
-        "javascript"
-      ]
-    },
-    {
       "groupName": "Overmind Dependencies",
       "groupSlug": "overmindtech-npm",
       "matchDatasources": [
@@ -40,7 +31,9 @@
     {
       "groupName": "Test Tooling",
       "groupSlug": "vitest-npm",
-      "matchDatasources": ["npm"],
+      "matchDatasources": [
+        "npm"
+      ],
       "matchPackagePrefixes": [
         "vitest",
         "@vitest/**",
