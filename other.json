@@ -25,6 +25,11 @@
       "groupName": "Terraform",
       "groupSlug": "terraform",
       "matchDatasources": [
+        "terraform-module",
+        "terraform-provider"
+      ],
+      "labels": [
+        "dependencies",
         "terraform"
       ]
     }
