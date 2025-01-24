@@ -70,6 +70,7 @@
       ],
       "matchPackagePrefixes": [
         "@bufbuild/",
+        "@connectrpc/",
         "@grpc/grpc-js",
         "tanstack-query"
       ]
