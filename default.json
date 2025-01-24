@@ -11,7 +11,9 @@
   ],
   "lockFileMaintenance": {
     "enabled": true,
-    "automerge": true
+    "automerge": true,
+    "platformAutomerge": true,
+    "platformCommit": "auto"
   },
   "labels": [
     "dependencies"
