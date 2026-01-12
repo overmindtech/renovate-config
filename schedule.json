@@ -4,6 +4,6 @@
   "prConcurrentLimit": 0,
   "timezone": "Europe/London",
   "schedule": [
-    "before 4pm on friday"
+    "before 10am on friday"
   ]
 }
